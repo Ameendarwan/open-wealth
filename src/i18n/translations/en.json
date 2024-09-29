@@ -1,0 +1,28 @@
+{
+  "pages": {
+    "dashboard": {
+      "page-title": "Dashboard",
+      "crypto-table": {
+        "headers": {
+          "asset": "Asset",
+          "current-price": "Current Price",
+          "price-change-24": "Price Change (24h)",
+          "holdings": "Holdings",
+          "total-portfolio-value": "Total Portfolio Value"
+        }
+      }
+    }
+  },
+  "user": {
+    "logged-in-as": "Logged in as",
+    "logout": "Logout"
+  },
+  "error-boundary": {
+    "oops": "Oops...",
+    "unexpected-error": "An unexpected error occured.",
+    "sorry-for-inconvenience": "We’re sorry for any inconveinience caused. If you keep experiencing this issue then please let us know.",
+    "return-to-homepage": "Return to the homepage",
+    "error-message": "Error message",
+    "stack-trace": "Stack trace"
+  }
+}

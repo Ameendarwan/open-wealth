@@ -1,0 +1,15 @@
+# Dependencies
+node_modules
+
+# Artifacts
+build
+coverage
+
+# Tooling
+.eslintrc.js
+config
+jest.config.ts
+jest.setup.ts
+vitest.config.ts
+__mocks__
+tests

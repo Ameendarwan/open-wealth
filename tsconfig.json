@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "target": "es6",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "resolveJsonModule":true,
+      "allowSyntheticDefaultImports": true,
+      "downlevelIteration": true,
+      "baseUrl": ".",
+      "paths": {
+        "@app/*": [
+          "src/*"
+        ],
+        "@test/*": [
+          "test/*"
+        ]
+      },
+      // Explicitly include Jest DOM types for vitest/expect to compile properly
+      "types": ["@testing-library/jest-dom"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

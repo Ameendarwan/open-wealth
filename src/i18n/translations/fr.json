@@ -1,0 +1,28 @@
+{
+  "pages": {
+    "dashboard": {
+      "page-title": "Tableau de bord",
+      "crypto-table": {
+        "headers": {
+          "asset": "Actif",
+          "current-price": "Prix Actuel",
+          "price-change-24": "Changement de Prix (24h)",
+          "holdings": "Positions",
+          "total-portfolio-value": "Valeur Totale du Portefeuille"
+        }
+      }
+    }
+  },
+  "user": {
+    "logged-in-as": "Connecté en tant que",
+    "logout": "Déconnexion"
+  },
+  "error-boundary": {
+    "oops": "Oups...",
+    "unexpected-error": "Une erreur inattendue s'est produite.",
+    "sorry-for-inconvenience": "Nous sommes désolés pour tout inconvénient causé. Si ce problème persiste, veuillez nous le faire savoir.",
+    "return-to-homepage": "Retour à la page d'accueil",
+    "error-message": "Message d'erreur",
+    "stack-trace": "Trace de la pile"
+  }
+}
