@@ -35,7 +35,7 @@ This project has been bootstrapped with:
 - Stylelint
 - unit tests with reports and coverage thresholds
 - assuming `uat` branch represents staging environment, should be set as default branch
-- assuming `main` branch represents production environment
+- assuming `master` branch represents production environment
 - assuming app is built into `build` folder
 
 ## Node Version
@@ -64,6 +64,7 @@ This application is compatible with Node.js version **18.12.0**.
 │   └── i18n                    # i18n configuration and translations
 │   └── store                   # application state management
 │   └── theme                   # application theme management
+│   └── types                   # global types
 │   └── utils                   # general reusabale code
 │   └── GlobalStyle.tsx         # global CSS declarations
 │   └── index.tsx               # webpack entry point
